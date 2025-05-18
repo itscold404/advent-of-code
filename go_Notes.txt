@@ -1,0 +1,16 @@
+These are useful functions/packages that I had to look up while learning Go:
+
+bufio -- useful for I/O reading/writing
+    - bufio.NewReader(file) -- returns new reader for reading file
+
+fmt -- package for formatted I/O functions
+    - fmt.Print, fmt.Println, fmt.Printf
+    
+os -- package for operating system stuff opening a file
+    - os.Open -- opens a file
+
+strings -- package for string manipulation
+    - strings.Fields(text) -- removes white spaces from string
+
+strconv -- package for conversions to and from string representations of datatypes
+    - strconv.Atoi() -- string to int
